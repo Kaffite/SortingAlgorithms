@@ -50,7 +50,7 @@ function bogoSort(){
     
 }
 
-numbers = [1, 2, 3];
+numbers = [1, 2, 3, 4];
 
 for (i = 0; i < numbers.length; i++){
     elementInBox(numbers[i], "bogo");
