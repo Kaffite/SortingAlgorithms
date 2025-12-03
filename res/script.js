@@ -28,10 +28,9 @@ function IsArrSorted(arr, btnID){
         btn.innerHTML = "Sorted";
     } else{
         btn.classList.remove("arrSortedBtn");
-        btn.innerHTML = "Try to sort";
+        btn.innerHTML = "Press to sort";
     }
 }
-
 
 function bogoSort(){
     let parent = "bogo";
@@ -52,10 +51,10 @@ function bogoSort(){
 
 numbers = [1, 2, 3, 4];
 
-for (i = 0; i < numbers.length; i++){
-    elementInBox(numbers[i], "bogo");
 
-}
-console.log(numbers);
-bogoSort();
+// Initial order
+//for (i = 1; i < numbers.length; i++){
+   // elementInBox(numbers[i], "bogo");
+//}
+//elementInBox(numbers[0], "bogo");
 
